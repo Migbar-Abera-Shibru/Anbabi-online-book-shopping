@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;200;300&display=swap');
+
+.nav{
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 2rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-family: 'Raleway', sans-serif
+
+    
+
+}
+.left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    color: brown;
+    /* font-family: 'Lobster', cursive; */
+    
+    font-size: 2rem;
+    padding-left: 0;
+
+}
+.left>span{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.right{
+    display: flex;
+    flex:3;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    right: 30rem;
+    padding-left: 20rem;
+    
+
+}
+.right>ul{
+    display: flex;
+    gap: 2rem;
+}
+.right>ul>li{
+    display: flex;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    /* color: rgb(218, 201, 201); */
+    cursor: pointer;
+
+
+}
+.right>ul>li:hover{
+    color: chocolate;
+}
