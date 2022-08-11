@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;200;300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@100;200;300&display=swap');
+
+.landing{
+    /* width: 100vw; */
+    height: 200vh;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lobster', cursive;
+     flex-direction: column;
+     
+}
+.mainContainer2{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     height: 150vh;
+     width: 90vw;
+     background: rgba(236, 211, 211, 0.336);
+     box-shadow: 0 8px 32px 0 rgba(194, 173, 154, 0.37);
+     backdrop-filter: blur(6.5px);
+     border-radius: 10px;
+     color: #ffffff;
+     
+     letter-spacing: 0.4rem;
+}
+.yetachgnaw{
+    display: flex;
+    margin-top: 3rem;
+
+}
+.l-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 5rem;
+}
+.button1{
+    width: 20rem;
+    height: 50px;
+    background: linear-gradient(to right, #c9896b  0%, #a07f4e 79%);
+    border-radius: 15px;
+}
+.button1:hover{
+    /* transform: scale(0.8); */
+    background: linear-gradient(to right, #94776a  0%, #ecbc75 79%);
+    color: brown;
+}
+.l-right{
+    display: flex;
+    flex: 1;
+
+}
+.l-right>img{
+    border-radius: 30px;
+}
+.upper{
+    padding: 20px;
+    font-size: 3rem;
+    color: maroon;
+    
+}
+.middle{
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: brown;
+}
+.footer{
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+    cursor: pointer;
+}
+.icon{
+    color: brown;
+    height: 20px;
+    width: 20px;
+}
+.icon:hover{
+    transform: scale(1.1);
+    color: chocolate;
+}
